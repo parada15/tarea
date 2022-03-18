@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+
+
+<style>
+    #header{
+        color:white;
+        font-size:x-large;
+        margin-bottom: 2%;
+        padding: 30px;
+        height: 70px;
+        flex-wrap:wrap ;
+        background-color:dodgerblue; 
+        font-family: monospace; 
+        border-radius: 5px;
+    }
+
+    .container{
+        display:flex;
+        flex-wrap: nowrap;
+    }
+
+    .main{
+        color:white;
+        font-size: x-large;
+        text-align: center;
+        display: flex;
+        flex-wrap: wrap;
+        align-content: center;
+        width: 75%;
+        height:300px;
+        background-color:lightgreen;
+        font-family: monospace;
+        border-radius: 5px;
+    }
+
+    .main div {
+        display: flex;
+        flex-wrap: wrap;
+        border-radius: 5px;
+        margin: 5px;
+        height: 100px;
+        width: 100px;
+    }
+
+    .sidebar{
+        color:white;
+        font-size: x-large;
+        text-align: center;
+        margin-left: 10px;
+        width: 25%;
+        height:300px;
+        background-color:tomato;
+        font-family: monospace;
+        border-radius: 5px;
+    }
+
+    #footer{
+        color:white;
+        font-size: large;
+        padding: 40px;
+        margin-top: 2%;
+        margin-right: 0%;
+        
+        height: 70px;
+        background-color:dodgerblue;
+        font-family: monospace;
+        border-radius: 5px;
+        clear:both;
+    }
+
+    .item{
+        
+        color:white;
+        padding: 10px;
+        border-radius: 5px;
+        background-color:seagreen;
+        box-shadow: #000;
+    }
+
+    .item:hover{
+        text-decoration: none;
+        color:darkred;
+        padding: 10px;
+        border-radius: 5px;
+        background-color:darkgreen;
+        box-shadow: #000;
+    }
+
+    .item:active{
+        text-decoration: none;
+        color:black;
+        padding: 10px;
+        border-radius: 5px;
+        background-color:darkslategray;
+        box-shadow: #000;
+    }
+
+</style>
+
+<div id="header"> HEADER</div>
+
+<div class="container">
+    <div class="main"> main
+        <div class="item">ITEM</div>
+        <div class="item">ITEM</div>
+        <div class="item">ITEM</div>
+        <div class="item">ITEM</div>
+        <div class="item">ITEM</div>
+        <div class="item">ITEM</div>
+        <div class="item">ITEM</div>
+        <div class="item">ITEM</div>
+        <div class="item">ITEM</div>
+        <div class="item">ITEM</div>
+        <div class="item">ITEM</div>
+    </div>
+    <div class="sidebar">SIDEBAR</div>
+</div>
+
+<div id="footer">FOOTER</div>
+
+</body>
+</html>
